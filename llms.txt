@@ -4,7 +4,7 @@ Project Structure:
 ├── 📁 issues
 │   └── 📄 101.md
 ├── 📁 src
-│   └── 📁 fontnemo
+│   └── 📁 fontnome
 │       ├── 📄 __init__.py
 │       ├── 📄 __main__.py
 │       ├── 📄 core.py
@@ -5079,13 +5079,13 @@ indent-style = "space"
 </document_content>
 </document>
 
-# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnemo/__init__.py
+# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnome/__init__.py
 # Language: python
 
 from fontnome._version import __version__
 
 
-# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnemo/__main__.py
+# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnome/__main__.py
 # Language: python
 
 import sys
@@ -5294,7 +5294,7 @@ def main(()) -> None:
     """Main entry point for CLI."""
 
 
-# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnemo/core.py
+# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnome/core.py
 # Language: python
 
 import tempfile
@@ -5349,7 +5349,7 @@ def save_font_safely((
     """Save font with safe write pattern: temp → backup → move."""
 
 
-# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnemo/utils.py
+# File: /Users/adam/Developer/vcs/github.fontlaborg/fontlaborg-cli/fontnome/src/fontnome/utils.py
 # Language: python
 
 import time
