@@ -5094,7 +5094,7 @@ from loguru import logger
 from fontnome.core import FontNameHandler, save_font_safely
 from fontnome.utils import make_slug, make_timestamp
 
-class fontnomeCLI:
+class FontNomeCLI:
     """fontnome CLI - Modify font family names in OpenType/TrueType fonts."""
     def __init__((self, verbose: bool = False)) -> None:
         """Initialize CLI with optional verbose logging."""

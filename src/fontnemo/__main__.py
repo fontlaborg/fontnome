@@ -11,7 +11,7 @@ from fontnome.core import FontNameHandler, save_font_safely
 from fontnome.utils import make_slug, make_timestamp
 
 
-class fontnomeCLI:
+class FontNomeCLI:
     """fontnome CLI - Modify font family names in OpenType/TrueType fonts."""
 
     def __init__(self, verbose: bool = False) -> None:
@@ -437,7 +437,7 @@ class fontnomeCLI:
 
 def main() -> None:
     """Main entry point for CLI."""
-    fire.Fire(fontnomeCLI)
+    fire.Fire(FontNomeCLI)
 
 
 if __name__ == "__main__":
